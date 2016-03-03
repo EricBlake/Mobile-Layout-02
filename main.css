@@ -1,14 +1,20 @@
 .blue-1 {
 	height: 3em;
 	background-color:#1083B5;
+	overflow: hidden;
 }
 
 .blue1-whitebox {
-	height:2em;
+	height:1.5em;
 	width: 2em;
-	background-color: #FFFFFF;
+	background-color: #1083B5;
 	float: left;
 	padding-left: 1em;
+	margin: 0 auto;
+	border-left: 1em solid #1083B5;
+	border bottom: 1em solid #1083B5;
+	border-top: 1em solid #1083B5;
+	border-right: 1em solid #1083b5;
 }
 
 
@@ -35,7 +41,7 @@
 
 .navy-1 {
 	height: 50em;
-	background-color:#323D4D;
+	background: url(https://s1.wp.com/home.logged-out//images/pic-crowd.webp?2);
 	padding-bottom: 3em;
 }
 
@@ -88,7 +94,6 @@
 .white-1 {
 	height: 1em;
 	width: 3em;
-	background-color: #FFFFFF;
 	border: 1px #FFFFFF;
 	text-align: center;
 	margin: 0 auto;
@@ -98,7 +103,7 @@
 .white-2 {
 	height: 5em;
 	width: 20em;
-	background-color: #B48D5E;
+	background-color: #323D4D;
 	margin: 2em;
 	text-align: center;
 	padding-left: 0em;
@@ -111,7 +116,12 @@
 	height: 5em;
 	width: 5em;
 	float: left;
-	background-color: #FFFFFF;
+	
+}
+
+.fa{
+	font-size: 3em;
+	color: #FFFFFF;
 }
 
 .white-2text1a {
@@ -204,15 +214,33 @@
 	height: 10em;
 	background-color: #E8F0F5
 }
+
+.off-white2-text {
+	color: #39567A;
+	font-family: arial;
+	font-size: 2em;
+	background-color: #E8F0F5;
+	text-align: center;
+	margin: 0 auto;
+}
+
 .blue-3 {
 	height: 3.5em;
 	width: 14em;
 	background-color: #1E8CBE;
 	color: #FFFFFF;
 	font-size: 1.5em;
-	text-align: center;
+	text-align: 0 auto;
 	margin: 0 auto;
-	border-top: 5em solid #E8F0F5;
+	border-top: 2em solid #E8F0F5;
+}
+
+.blue3-text {
+	color: #FFFFFF;
+	max-width:; 50%;
+	font-size: 2em;
+	text-align: center;
+	box-sizing: border-box;
 }
 
 
@@ -222,13 +250,14 @@
 	background-color: #000000;
 }
 
-.low1-text {
-	color: #FFFFFF;
-	font-size: .7em;
+.footer-text {
+	text-decoration: none;
+	display:inline;
 	text-align: center;
-	margin:0 auto;
-	border-top: 3em solid #000000;
-	text-indent: none;
+	margin: 0 auto;
+	box-sizing: border-box;
+	line-height: 2em;
+
 }
 
 }
@@ -241,20 +270,3 @@
 	border-top: 3em solid #000000;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-}
